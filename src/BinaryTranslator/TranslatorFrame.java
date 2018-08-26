@@ -39,7 +39,7 @@ import java.util.List;
  * Convert from ASCII to binary and vice versa
  *
  * @author NTropy
- * @ver 8/26/2018
+ * @version 8/26/2018
  */
 public class TranslatorFrame extends JPanel {
 
@@ -49,7 +49,7 @@ public class TranslatorFrame extends JPanel {
     public static JScrollPane jscrlp;
 
     /**
-     * panel for input/button
+     * Panel for input/button
      */
     public static JPanel p1 = new JPanel(); 
 

@@ -24,7 +24,7 @@ import javax.swing.JFrame;
 /**
  * Runs Translator
  * @author NTropy
- * @ver 8/26/2018
+ * @version 8/26/2018
  */
 public final class Translator extends JFrame {
     
@@ -65,6 +65,7 @@ public final class Translator extends JFrame {
     /**
      * Creates the game runnable
      * @param args
+     *              Command line arguments
      */
     public static void main(String args[]) {
         EventQueue.invokeLater(() -> { //allows long calculations to be performed without blocking GUI
