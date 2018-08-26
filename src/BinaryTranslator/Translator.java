@@ -35,6 +35,9 @@ public final class Translator extends JFrame {
         configureTranslator();
     }
     
+    /**
+     * Configures GUI options
+     */
     public void configureTranslator() {
         
         add(new TranslatorFrame()); //adds TranslatorFrame to GUI (this is the brains)

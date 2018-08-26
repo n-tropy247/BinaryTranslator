@@ -43,9 +43,15 @@ import java.util.List;
  */
 public class TranslatorFrame extends JPanel {
 
-    public static JScrollPane jscrlp; //Allows output to be scrolled through if too long
+    /**
+     * Allows output to be scrolled through if too long
+     */
+    public static JScrollPane jscrlp;
 
-    public static JPanel p1 = new JPanel(); //panel for input/button
+    /**
+     * panel for input/button
+     */
+    public static JPanel p1 = new JPanel(); 
 
     private static ActionEvent sendOverride; //override ActionEvent if "enter" key pressed
 
